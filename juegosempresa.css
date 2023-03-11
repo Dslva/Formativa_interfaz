@@ -1,0 +1,103 @@
+			body {
+				background: url('geopatt.jpg');
+				background-position: center top;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #444;
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				text-decoration: none;
+			}
+			h1 {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+			h1 a {
+				display: block;
+				width: 610px;
+				height: 148px;
+				background-image: url('fugacontrollogo.png');
+				background-repeat: no-repeat;
+				background-size: contain;
+				margin: 55px auto 0 auto;
+			}
+			h1 a span {
+				opacity: 0;
+			}
+			p.categorias {
+				text-align: center;
+				margin: 89px auto 0 auto;
+				padding: 0 0 89px 0;
+			}
+			p.categorias a {
+				display: inline-block;
+				width: 377px;
+				height: 55px;
+				background: url('categoriatipo.jpg');
+				background-size: cover;
+				padding: 322px 0 13px 0;
+				text-align: center;
+				text-transform: uppercase;
+				font-family: sans-serif;
+				font-weight: normal;
+				letter-spacing: 1px;
+				font-size: 34px;
+				text-shadow: 0px -3px 5px #000;
+				margin: 5px;
+				color: #9ff;
+				border-radius: 55px;
+				border-style: solid;
+				border-color: #003;
+				border-width: 5px;
+			}
+			p.categorias a:hover {
+				border-color: #3ff;
+			}
+			p.categoriasNavegador {
+				text-align: center;
+				margin: 55px auto 0 auto;
+				padding: 0 0 89px 0;
+			}
+			p.categoriasNavegador a {
+				text-align: center;
+				display: inline-block;
+				padding: 5px 13px 3px 13px;
+				text-transform: uppercase;
+				font-family: sans-serif;
+				font-weight: normal;
+				letter-spacing: 1px;
+				font-size: 21px;
+				margin: 5px;
+				color: #9ff;
+				background-color: #60c;
+				border-radius: 13px;
+				border-style: solid;
+				border-color: #003;
+				border-width: 3px;
+			}
+			p.categoriasNavegador a:hover {
+				text-shadow: 0px -3px 5px #000;
+				color: #0ff;
+				border-color: #60c;
+			}
+			p.categoriasNavegador span#actCat {
+				text-align: center;
+				display: inline-block;
+				padding: 5px 13px 3px 13px;
+				text-transform: uppercase;
+				font-family: sans-serif;
+				font-weight: normal;
+				letter-spacing: 1px;
+				font-size: 21px;
+				margin: 5px;
+				color: #60c;
+				background-color: #0ff;
+				border-radius: 13px;
+				border-style: solid;
+				border-color: #0ff;
+				border-width: 3px;
+				text-shadow: 0px 0px 5px #fff;
+			}
