@@ -4,8 +4,8 @@
 				background-attachment: fixed;
 				background-size: cover;
 				background-color: #444;
-				margin: 0;
 				padding: 0;
+				margin: 0;
 			}
 			a {
 				text-decoration: none;
@@ -59,7 +59,7 @@
 			p.categoriasNavegador {
 				text-align: center;
 				margin: 55px auto 0 auto;
-				padding: 0 0 89px 0;
+				padding: 0;
 			}
 			p.categoriasNavegador a {
 				text-align: center;
@@ -100,4 +100,92 @@
 				border-color: #0ff;
 				border-width: 3px;
 				text-shadow: 0px 0px 5px #fff;
+			}
+
+
+
+			div#juegosLista {
+				text-align: center;
+				margin: 0 auto;
+				padding: 0 34px 89px 34px;
+			}
+			div.juegoFicha {
+				max-width: 977px;
+				min-width: 542px;
+				height: 610px;
+				margin: 55px auto;
+				border-radius: 13px;
+				border-style: solid;
+				border-width: 5px;
+				border-color: #ddddef;
+				background-color: #ddddef;
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				background-size: cover;
+			}
+			div.juegoFicha h3 {
+				text-transform: uppercase;
+				text-align: left;
+				color: #ddddef;
+				font-weight: bold;
+				font-size: 55px;
+				font-family: Sans-serif;
+				margin: 0.5em 144px 0.5em 21px;
+				padding: 0;
+				text-shadow: 0px 0px 8px #000;
+			}
+			div.juegoFicha p {
+				text-align: left;
+				color: #000;
+				font-weight: normal;
+				font-family: Sans-serif;
+				font-size: 21px;
+				max-width: 377px;
+				margin: 0 144px 0 0;
+				padding: 13px;
+				border-top-left-radius: 0;
+				border-top-right-radius: 13px;
+				border-bottom-left-radius: 0;
+				border-bottom-right-radius: 0;
+				background-color: #ddddef;
+			}
+			div.juegoFicha p.juegoPrecio {
+				font-family: Serif;
+				font-style: oblique;
+				font-size: 21px;
+				font-weight: bold;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
+				border-bottom-left-radius: 0;
+				border-bottom-right-radius: 13px;
+			}
+			div#juego001 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego002 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego003 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego004 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego005 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego006 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego007 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego008 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego009 {
+				background-image: url('videogameimage.jpg');
+			}
+			div#juego010 {
+				background-image: url('videogameimage.jpg');
 			}
